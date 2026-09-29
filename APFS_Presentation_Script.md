@@ -64,8 +64,6 @@ Object Map ทำหน้าที่เชื่อม OID เข้ากั�
 
 ### สไลด์ 9: Inode, Extent และ Directory Management
 
-ผมชื่อธนบดี จะพูดถึงสามส่วนที่ประกอบเป็นไฟล์ครับ
-
 **Inode / Metadata** เก็บข้อมูลเกี่ยวกับไฟล์ เช่น file attributes, timestamp และข้อมูลที่ใช้ระบุไฟล์ **Directory** ใช้จัดโครงสร้างไฟล์และโฟลเดอร์ ดังภาพที่มี file1, file2, folder ซึ่งข้างในมี file3, file4 และรองรับ Directory ขนาดใหญ่ได้ สุดท้าย **Extent** บอกตำแหน่งของข้อมูลไฟล์บน Storage และไฟล์หนึ่งไฟล์มีได้หลาย Extent ตามภาพ file1 ที่มี Extent 1, 2, 3 ครับ
 
 ### สไลด์ 10: Snapshot และ Atomic Safe-Save
